@@ -2,7 +2,7 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>49.0</apiVersion>
     <isExposed>true</isExposed>
-    <masterLabel>Hello Salesforce Component</masterLabel>
+    <masterLabel>HelloWorld Salesforce Trailhead</masterLabel>
   <description>Here we specify component description component.</description>
   <targets>
       <target>lightning__RecordPage</target>
@@ -10,11 +10,4 @@
       <target>lightning__HomePage</target>
       <target>lightningCommunity__Page</target>
   </targets>
-  <targetConfigs>
-      <targetConfig targets="lightning__AppPage,lightning__RecordPage">
-          <property name="prop1" type="String" /> 
-          <property name="prop2" type="Boolean" />
-          <property name="prop4" type="Boolean" />         
-      </targetConfig>      
-  </targetConfigs>
 </LightningComponentBundle>
